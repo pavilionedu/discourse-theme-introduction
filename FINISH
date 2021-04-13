@@ -6,10 +6,8 @@
 #              the two theme configuration files: ``about.json`` and
 #              ``settings.yml``. We'll go through each briefly now and return
 #              to go through them in more depth later in the course.
-#
 # references:  https://meta.discourse.org/t/60848             
 ##
-
 
 ## 
 # type:        step
@@ -30,7 +28,6 @@
 #              Experiment with the other metadata, but don't worry about them
 #              too much for now. We'll be covering different parts of this file
 #              in more depth later in the course.
-#              
 # references:  https://meta.discourse.org/t/119205            
 ##
 
@@ -74,7 +71,13 @@
 #              Then open up your preview tab, and you'll now see a repeated
 #              background pattern image. Experiment by changing the setting to
 #              a different online image url.
-#              
 # references:  https://meta.discourse.org/t/82557           
+##
+
+## 
+# type:        homework
+# title:       Create your own theme
+# description:
+# references:           
 ##
 

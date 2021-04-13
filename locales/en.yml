@@ -7,7 +7,7 @@
 #              still use a locale file to manage it.
 #
 #              If you're not familiar with what "locales" are, or even if you
-#              are, but are a little rusty, first skim through the
+#              are but are a little rusty, first skim through the
 #              "Internationalization and localization" Wikipedia article, and
 #              the meta.discourse.org topic in the references.
 #
@@ -16,17 +16,16 @@
 #              change locale strings in Discourse itself (not in your theme), 
 #              do that in the Customize > Text admin panel instead.
 #
-#              Each language your theme to be localized in needs a new file in
-#              the locales folder. Each file should be named by the ISO 639-1
-#              code for the language and formatted as a YAML file. Each file 
-#              should also start with the same ISO 639-1 code.
+#              Each language you want your theme to be localized in needs a new
+#              file in the locales folder. Each file should be named by the ISO
+#              639-1 code for the language and formatted as a YAML file. Each
+#              file should also start with the same ISO 639-1 code.
 #              
-#              To make this more tangible, let's change the
-#              ``theme_metadata.description`` locale string below to something
-#              else, such as "I made it to step 10!". Then, go back to
-#              "My Themes" on the Theme Creator click on "Discourse Theme 
-#              Introduction" on the left and refresh the page. You'll now see
-#              your new text under the main "Discourse Theme Introduction"
+#              Let's change the ``theme_metadata.description`` locale string
+#              below to something else, such as "I made it to step 10!". Then,
+#              go back to "Discourse Theme Introduction" in "My Themes" on the
+#              Theme Creator and refresh the page. You'll now see your new
+#              description text under the main "Discourse Theme Introduction"
 #              title.
 #
 #              We'll cover theme locale files in more depth in another unit.
@@ -34,7 +33,7 @@
 #              a simple change to one. Browse through the references to learn
 #              more, but don't worry about becoming a locale expert just yet.
 #
-#              When you're ready open the FINISH file for the final steps in
+#              When you're ready, open the FINISH file for the final steps in
 #              this unit.
 #              
 # references:  https://en.wikipedia.org/wiki/Internationalization_and_localization,
@@ -45,4 +44,4 @@
 #              https://yaml.org/spec/1.2/spec.html
 en:
   theme_metadata:
-    description: "An introduction to developing Discourse themes."
+    description: "An introduction to working with Discourse themes."

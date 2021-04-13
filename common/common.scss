@@ -2,7 +2,13 @@
 * type:        step
 * number:      5
 * title:       Make changes to the CSS
-* description: Change the background to skyblue below, then go back to
+* description: Whenever you make changes to common/common.scss, they'll
+*              automatically be applied to the common/common.scss in the 
+*              copy of discourse-theme-introduction on Theme Creator. If that
+*              theme is enabled, or being previewed, you'll automatically see
+*              the change being applied.
+*              
+*              Change the background to skyblue below, then go back to
 *              the browser tab that opened when you clicked the "Preview"
 *              button in Step 3. You should now see your skyblue colour
 *              applied. Open up the terminal window where you have the
@@ -11,14 +17,11 @@
 *              » Fast updating common.scss
 *              ✔ Done! Watching for changes...
 *              ```
-*              Whenever you make changes to common/common.scss, they'll
-*              automatically be applied to the common/common.scss in the 
-*              copy of discourse-theme-introduction on Theme Creator.
 * references:  https://meta.discourse.org/t/93648,
 *              https://meta.discourse.org/t/152002
 */
 body {
-  background: url("#{$body_background_img_url}");
+  background: white;
 }
 
 /* 

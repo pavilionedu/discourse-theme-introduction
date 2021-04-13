@@ -8,17 +8,19 @@ CLI_VERSION: '0.4.1'
 #              Ruby installed on your computer, and that you're familiar with
 #              basic HTML, CSS and Javascript. Some steps have a "references"
 #              section with links you can follow to learn more.
+# level:       beginner
 ##
 
 ##
 # type:        step
 # number:      1
-# title:       Install the latest version of the Discourse Theme CLI gem
-# description: First, you need to install the Discourse Theme CLI ruby gem,
-#              by following the steps in the meta.discourse.org CLI topic (see
-#              below). If you already have the gem installed, check you're
-#              using the version set at the top of the 
-#              discourse-theme-introduction/START file, or later.
+# title:       Install the Discourse Theme CLI
+# description: First, you need to install the latest version of the  Discourse
+#              Theme CLI ruby gem by following the steps in the
+#              meta.discourse.org CLI topic (link in the references). If you
+#              already have the gem installed, check you're using the version
+#              set at the top of the discourse-theme-introduction/START file,
+#              or later.
 # references:  https://meta.discourse.org/t/82950
 ##
 gem install discourse_theme
@@ -29,9 +31,9 @@ gem update discourse_theme // update if needed
 ## 
 # type:        step
 # number:      2
-# title:       Watch discourse-theme-introduction on Discourse Theme Creator
-# description: Now we're going to start "watching" the
-#              discourse-theme-introduction theme on the Discourse Theme 
+# title:       Watch your theme on Discourse Theme Creator
+# description: Now we're going to start "watching" this theme, the
+#              ``discourse-theme-introduction`` theme, on the Discourse Theme 
 #              Creator. This means that the copy of the theme on your computer
 #              will be connected with a copy of the same theme on the Theme
 #              Creator. Whenever changes are made to the theme code on your
@@ -112,7 +114,7 @@ gem update discourse_theme // update if needed
 ## 
 # type:        step
 # number:      4
-# title:       Open discourse-theme-introduction in a code editor
+# title:       Open your theme in a code editor
 # description: To make changes to the code in your local copy of
 #              discourse-theme-introduction, we need to open it in a code 
 #              editor. If you don't have a code editor installed, we 
