@@ -1,7 +1,21 @@
 /* 
 * type:        step
 * number:      7
-* title:       Apply desktop-only styles
-* description: 
-* references:  
+* title:       Apply device-specific changes
+* description: Any files in the 'desktop' folder in a theme will only be
+*              applied when the user is using the forum on a desktop web
+*              browser. This means that any style changes you make in this file 
+*              won't appear in your mobile preview tab. Make a change to the 
+*              .wrap max-width to see it in action. This is the rule that sets
+*              the maximum width of content you see on desktop Discourse,
+*              unlike the full-width you see on mobile. Once you've finished
+*              experimenting with desktop-only styles, head over to
+*              mobile/mobile.scss for the next step.      
+* references:  https://meta.discourse.org/t/152002,
+*              https://meta.discourse.org/t/93648,
+*              app/assets/stylesheets/desktop
 */
+.wrap {
+  max-width: 1110px;
+}
+

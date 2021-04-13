@@ -10,7 +10,7 @@ CLI_VERSION: '0.4.1'
 #              section with links you can follow to learn more.
 ##
 
-## 
+##
 # type:        step
 # number:      1
 # title:       Install the latest version of the Discourse Theme CLI gem

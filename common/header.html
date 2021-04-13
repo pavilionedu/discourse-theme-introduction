@@ -1,3 +1,35 @@
-<div class="above-the-header" style="display: none;">
-  <h2 style="padding: 1em;">I appear above the header</h2>
+<!-- 
+type:        step
+number:      9.2
+title:       Add a parent header
+description: Here we're adding a "parent" header that will appear above the
+             normal Discourse header (above all other visible Discourse html
+             actually). To show the header on your preview tabs, change or 
+             remove the ``display: none;`` style rule from the element with
+             the ``parent-header`` class, then refresh the page. Experiment
+             with adding different HTMl and applying CSS from the common,
+             desktop and mobile stylesheets.
+             
+             Also experiment with adding HTML to the ``after_header.html`` and 
+             ``footer.html`` files. The ``footer.html`` content is primarily
+             used for crawlers and when javascript is not enabled. To see what
+             Discourse looks like without javascript, disable javascript in
+             your web browser. There are some links to guides on how to disable
+             javascript in common browsers in the references. 
+             
+             When you've finished, go to ``locales/en.yml`` for the next step.
+references:  https://developer.mozilla.org/en-US/docs/Tools/Settings,
+             https://developer.chrome.com/docs/devtools/javascript/disable
+-->
+<div class="parent-header" style="display: none; background-color: #eee;">
+  <div class="wrap" style="display: flex; align-items: center; justify-content: space-between; padding: 0.75em;">
+    <a href="/" style="display: flex; align-items: center;">
+      <img src="https://upload.wikimedia.org/wikipedia/en/6/61/Squircle_circle_square.png" width="35" height="35" />
+      <h3 style="margin: 0 0 0 0.5em;">Parent Header</h3>
+    </a>
+    <ul style="padding: 0; margin: 0 0 0 auto; list-style: none; display: flex; align-items: center;">
+      <li><a href="/about" style="margin-right: 1em;">About</a></li>
+      <li><a href="/tos">Terms</a></li>
+    </ul>
+  </div>
 </div>

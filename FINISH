@@ -1,0 +1,80 @@
+## 
+# type:        step
+# number:      11
+# title:       How to configure a theme
+# description: The last thing we're going to look at in this introduction are
+#              the two theme configuration files: ``about.json`` and
+#              ``settings.yml``. We'll go through each briefly now and return
+#              to go through them in more depth later in the course.
+#
+# references:  https://meta.discourse.org/t/60848             
+##
+
+
+## 
+# type:        step
+# number:      11.1
+# title:       How to configure the about.json file
+# description: The ``about.json`` file's primary role is to set metadata about
+#              a theme. Have a look at the meta.discourse.org topic in the 
+#              references for a list of metadata you can add. The ``about.json``
+#              can also be used to configure assets and color schemes.
+#
+#              To see how the ``about.json`` works, add your name to the
+#              "authors" value. The convention is to seperate each name by a
+#              comma followed by a space. Then go to the "My Themes" panel in
+#              the Theme Creator, click on "Discourse Theme Introduction" and
+#              refresh the page. You should now see your name included in the
+#              "Authors" metadata.
+#
+#              Experiment with the other metadata, but don't worry about them
+#              too much for now. We'll be covering different parts of this file
+#              in more depth later in the course.
+#              
+# references:  https://meta.discourse.org/t/119205            
+##
+
+## 
+# type:        step
+# number:      11.2
+# title:       How to use the settings.yml file
+# description: The ``settings.yml`` file is where you add settings you can
+#              change in the theme administration interface. The main point of
+#              this is to make it easy to configure the theme without changing
+#              the code.
+#              
+#              Settings are useful when you're developing an open source theme
+#              that people will use on different forums, and you want to let
+#              them make some changes to suit their forum.
+#
+#              Settings are also useful when you're making a theme that will be
+#              administered by a non-technical forum administrator and you want
+#              to let them configure how the theme looks or works themselves.
+#
+#              We'll be going into settings in more depth in a later unit, but
+#              for now, let's see a simple setting in action. Open the
+#              ``settings.yml`` file and paste in this line
+#
+#              ```
+#              body_background_img_url: https://pavilion-assets.nyc3.digitaloceanspaces.com/education/pattern.png
+#              ```
+#
+#              Save the file, then go back to Discourse Theme Introduction in 
+#              your "My Themes" list on the Theme Creator. Scroll down to the
+#              bottom and you'll now see a section called "Theme Settings" with
+#              the setting we just added.
+#
+#              To use the setting, go to the ``common/common.scss`` file and
+#              change the ``body`` ``background`` to
+#
+#              ```
+#              url("#{$body_background_img_url}");
+#              ```
+#
+#              Then open up your preview tab, and you'll now see a repeated
+#              background pattern image. Experiment by changing the setting to
+#              a different online image url.
+#              
+# references:  https://meta.discourse.org/t/82557           
+##
+
