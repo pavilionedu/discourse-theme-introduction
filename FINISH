@@ -1,4 +1,4 @@
-## 
+## learning_step
 # type:        step
 # number:      11
 # title:       How to configure a theme
@@ -9,7 +9,7 @@
 # references:  https://meta.discourse.org/t/60848             
 ##
 
-## 
+## learning_step
 # type:        step
 # number:      11.1
 # title:       How to configure the about.json file
@@ -31,7 +31,7 @@
 # references:  https://meta.discourse.org/t/119205            
 ##
 
-## 
+## learning_step
 # type:        step
 # number:      11.2
 # title:       How to use the settings.yml file
@@ -39,7 +39,7 @@
 #              change in the theme administration interface. The main point of
 #              this is to make it easy to configure the theme without changing
 #              the code.
-#              
+#
 #              Settings are useful when you're developing an open source theme
 #              that people will use on different forums, and you want to let
 #              them make some changes to suit their forum.
@@ -74,7 +74,7 @@
 # references:  https://meta.discourse.org/t/82557           
 ##
 
-## 
+## learning_step
 # type:        homework
 # title:       Create your own theme
 # description:

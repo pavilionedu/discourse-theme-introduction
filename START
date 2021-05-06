@@ -1,9 +1,8 @@
 CLI_VERSION: '0.4.1'
 
-## 
-# type:        introduction
-# title:       Introduction to Discourse themes
-# description: This unit will introduce you to working with Discourse themes.
+## learning_unit
+# title:       Introduction to Discourse Theme Development
+# description: This unit will introduce you to developing Discourse themes.
 #              It assumes you've used the command line before, that you have
 #              Ruby installed on your computer, and that you're familiar with
 #              basic HTML, CSS and Javascript. Some steps have a "references"
@@ -11,11 +10,11 @@ CLI_VERSION: '0.4.1'
 # level:       beginner
 ##
 
-##
+## learning_step
 # type:        step
 # number:      1
 # title:       Install the Discourse Theme CLI
-# description: First, you need to install the latest version of the  Discourse
+# description: First, you need to install the latest version of the Discourse
 #              Theme CLI ruby gem by following the steps in the
 #              meta.discourse.org CLI topic (link in the references). If you
 #              already have the gem installed, check you're using the version
@@ -28,7 +27,7 @@ gem install discourse_theme
 gem list discourse_theme // check the version
 gem update discourse_theme // update if needed
 
-## 
+## learning_step
 # type:        step
 # number:      2
 # title:       Watch your theme on Discourse Theme Creator
@@ -41,7 +40,7 @@ gem update discourse_theme // update if needed
 #              theme on the Theme Creator.
 ##
 
-## 
+## learning_step
 # type:        step
 # number:      2.1
 # title:       Clone the theme from GitHub
@@ -54,7 +53,7 @@ gem update discourse_theme // update if needed
 #              https://github.com/pavilionedu/discourse-theme-introduction
 ##
 
-## 
+## learning_step
 # type:        step
 # number:      2.2
 # title:       Create an account on Discourse Theme Creator
@@ -69,7 +68,7 @@ gem update discourse_theme // update if needed
 #              https://meta.discourse.org/t/84942
 ##
 
-## 
+## learning_step
 # type:        step
 # number:      2.3
 # title:       Run the watch command
@@ -96,7 +95,7 @@ gem update discourse_theme // update if needed
 # references:  https://meta.discourse.org/t/82950
 ##
 
-##
+## learning_step
 # type:        step
 # number:      3
 # title:       Preview your theme
@@ -111,7 +110,7 @@ gem update discourse_theme // update if needed
 #              make them to your local copy of discourse-theme-introduction.
 ##
 
-## 
+## learning_step
 # type:        step
 # number:      4
 # title:       Open your theme in a code editor
