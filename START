@@ -1,13 +1,22 @@
 CLI_VERSION: '0.4.1'
 
+## learning_course
+# key: discourse_theme_development_beginner
+##
+
 ## learning_unit
 # title:       Introduction to Discourse Theme Development
-# description: This unit will introduce you to developing Discourse themes.
-#              It assumes you've used the command line before, that you have
-#              Ruby installed on your computer, and that you're familiar with
-#              basic HTML, CSS and Javascript. Some steps have a "references"
-#              section with links you can follow to learn more.
-# level:       beginner
+# description: This unit will introduce you to developing Discourse themes. The
+#              unit itself is also a Discourse theme! You can find a link to
+#              the theme git repository in the "references" section below.
+#              Go check it out now, as you'll need to "clone" it to you computer
+#              soon (not just yet). As you go through this unit, make sure you
+#              complete the instructions in each step before moving on to the
+#              next. If you get stuck on any step, post a message in the 
+#              Discourse topic this unit is connected to, and someone will help
+#              you out.
+# references:  https://github.com/pavilionedu/discourse-theme-introduction
+#              
 ##
 
 ## learning_step
@@ -43,7 +52,7 @@ gem update discourse_theme // update if needed
 ## learning_step
 # type:        step
 # number:      2.1
-# title:       Clone the theme from GitHub
+# title:       Clone this theme from GitHub
 # description: There are many ways to clone the theme from GitHub to your
 #              computer. We recommend you use GitHub Desktop when you're
 #              starting out. Clone the discourse-theme-introduction 
