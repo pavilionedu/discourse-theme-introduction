@@ -1,5 +1,5 @@
-## learning_step
-# type:        step
+# learning_step
+# unit:        discourse_theme_development.1
 # number:      11
 # title:       How to configure a theme
 # description: The last thing we're going to look at in this introduction are
@@ -7,10 +7,10 @@
 #              ``settings.yml``. We'll go through each briefly now and return
 #              to go through them in more depth later in the course.
 # references:  https://meta.discourse.org/t/60848             
-##
+# /learning_step
 
-## learning_step
-# type:        step
+# learning_step
+# unit:        discourse_theme_development.1
 # number:      11.1
 # title:       How to configure the about.json file
 # description: The ``about.json`` file's primary role is to set metadata about
@@ -29,10 +29,10 @@
 #              too much for now. We'll be covering different parts of this file
 #              in more depth later in the course.
 # references:  https://meta.discourse.org/t/119205            
-##
+# /learning_step
 
-## learning_step
-# type:        step
+# learning_step
+# unit:        discourse_theme_development.1
 # number:      11.2
 # title:       How to use the settings.yml file
 # description: The ``settings.yml`` file is where you add settings you can
@@ -72,12 +72,13 @@
 #              background pattern image. Experiment by changing the setting to
 #              a different online image url.
 # references:  https://meta.discourse.org/t/82557           
-##
+# /learning_step
 
-## learning_step
-# type:        homework
+# learning_step
+# unit:        discourse_theme_development.1
+# number:      12
 # title:       Create your own theme
 # description:
 # references:           
-##
+# /learning_step
 

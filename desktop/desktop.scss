@@ -1,5 +1,5 @@
 /* learning_step
-* type:        step
+* unit:        discourse_theme_development.1
 * number:      7
 * title:       Apply device-specific changes
 * description: Any files in the 'desktop' folder in a theme will only be
@@ -11,11 +11,12 @@
 *              unlike the full-width you see on mobile. Once you've finished
 *              experimenting with desktop-only styles, head over to
 *              mobile/mobile.scss for the next step.      
-* references:  https://meta.discourse.org/t/152002,
-*              https://meta.discourse.org/t/93648,
+* references:  https://meta.discourse.org/t/152002
+*              https://meta.discourse.org/t/93648
 *              app/assets/stylesheets/desktop
 */
 .wrap {
   max-width: 1110px;
 }
+/* /learning_step */
 

@@ -1,5 +1,5 @@
 /* learning_step
-* type:        step
+* unit:        discourse_theme_development.1
 * number:      5
 * title:       Make changes to the CSS
 * description: Whenever you make changes to common/common.scss, they'll
@@ -17,15 +17,16 @@
 *              » Fast updating common.scss
 *              ✔ Done! Watching for changes...
 *              ```
-* references:  https://meta.discourse.org/t/93648,
+* references:  https://meta.discourse.org/t/93648
 *              https://meta.discourse.org/t/152002
 */
 body {
   background: white;
 }
+/* /learning_step */
 
 /* learning_step
-* type:        step
+* unit:        discourse_theme_development.1
 * number:      5.1
 * title:       Find tags and classes to change 
 * description: Open up your browser's web developer tools. There are some links
@@ -34,12 +35,13 @@ body {
 *              classes are listed below with some default values set. Change 
 *              them and then click around your "Preview" tab of the Theme 
 *              Creator to see the effect.
-* references:  https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools,
+* references:  https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools
 *              https://developer.chrome.com/docs/devtools/
 */
 .btn {
   border-radius: 0px;
 }
+
 
 .d-header {
   height: 4em;
@@ -52,9 +54,10 @@ body {
 .nav-pills > li a {
   border-bottom: 0;
 }
+/* /learning_step */
 
 /* learning_step
-* type:        step
+* unit:        discourse_theme_development.1
 * number:      6
 * title:       Open up a mobile preview tab
 * description: Copy the URL in your preview tab, and open a new browser tab. 
@@ -65,6 +68,6 @@ body {
 *              your existing preview tab, for the rest of this unit. When you
 *              have both preview tabs open, go to desktop/desktop.scss for the
 *              next step.
-* references:  https://developer.mozilla.org/en-US/docs/Tools/Responsive_Design_Mode,
+* references:  https://developer.mozilla.org/en-US/docs/Tools/Responsive_Design_Mode
 *              https://developer.chrome.com/docs/devtools/device-mode/
-*/
+* /learning_step /
