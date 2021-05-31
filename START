@@ -31,12 +31,11 @@ CLI_VERSION: '0.4.1'
 #              set at the top of the discourse-theme-introduction/START file,
 #              or later.
 # references:  https://meta.discourse.org/t/82950
-#
 gem install discourse_theme
 // or if already installed
 gem list discourse_theme // check the version
 gem update discourse_theme // update if needed
-## /learning_step
+# /learning_step
 
 # learning_step
 # unit:        discourse_theme_development.1
@@ -60,7 +59,7 @@ gem update discourse_theme // update if needed
 #              starting out. Clone the discourse-theme-introduction 
 #              repository to a folder on your computer where you can easily 
 #              find it, such as ~/discourse/themes/discourse-theme-introduction
-# references:  https://desktop.github.com
+# references:  https://desktop.github.com,
 #              https://github.com/pavilionedu/discourse-theme-introduction
 # /learning_step
 
@@ -75,7 +74,7 @@ gem update discourse_theme // update if needed
 #              discourse-theme-introduction will appear when you start watching
 #              it. Click on "API Key", then "Generate API Key" and copy the key
 #              to a notepad on your computer.             
-# references:  https://theme-creator.discourse.org
+# references:  https://theme-creator.discourse.org,
 #              https://meta.discourse.org/t/84942
 # /learning_step
 
@@ -104,9 +103,9 @@ gem update discourse_theme // update if needed
 #              page. You should now see "Discourse Theme Introduction" in your
 #              list of themes.
 # references:  https://meta.discourse.org/t/82950
-## /learning_step
+# /learning_step
 
-## learning_step
+# learning_step
 # unit:        discourse_theme_development.1
 # number:      3
 # title:       Preview your theme

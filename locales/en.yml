@@ -43,7 +43,6 @@
 #              discourse/config/locales,
 #              https://en.wikipedia.org/wiki/ISO_639-1,
 #              https://yaml.org/spec/1.2/spec.html
-#
 en:
   theme_metadata:
     description: "An introduction to working with Discourse themes."
