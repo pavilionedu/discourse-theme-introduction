@@ -1,6 +1,6 @@
 # learning_step
 # unit:        discourse_theme_development.1
-# number:      10
+# number:      16
 # title:       Add a locale string
 # description: Locale files are used to manage any static text visible to the
 #              user, such as "Click here", or "Menu". Even if you only ever

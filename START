@@ -52,7 +52,7 @@ gem update discourse_theme // update if needed
 
 # learning_step
 # unit:        discourse_theme_development.1
-# number:      2.1
+# number:      3
 # title:       Clone this theme from GitHub
 # description: There are many ways to clone the theme from GitHub to your
 #              computer. We recommend you use GitHub Desktop when you're
@@ -65,7 +65,7 @@ gem update discourse_theme // update if needed
 
 # learning_step
 # unit:        discourse_theme_development.1
-# number:      2.2
+# number:      4
 # title:       Create an account on Discourse Theme Creator
 # description: You need an account on Discourse Theme Creator to use it with
 #              the CLI. Go https://theme-creator.discourse.org, sign up for an
@@ -80,7 +80,7 @@ gem update discourse_theme // update if needed
 
 # learning_step
 # unit:        discourse_theme_development.1
-# number:      2.3
+# number:      5
 # title:       Run the watch command
 # description: Now we're ready to run the watch command on your computer's 
 #              command line. Open your terminal and run the command
@@ -107,7 +107,7 @@ gem update discourse_theme // update if needed
 
 # learning_step
 # unit:        discourse_theme_development.1
-# number:      3
+# number:      6
 # title:       Preview your theme
 # description: Now that your local copy of discourse-theme-introduction is
 #              on the Theme Creator, we need to "Preview" the theme on the 
@@ -122,7 +122,7 @@ gem update discourse_theme // update if needed
 
 # learning_step
 # unit:        discourse_theme_development.1
-# number:      4
+# number:      7
 # title:       Open your theme in a code editor
 # description: To make changes to the code in your local copy of
 #              discourse-theme-introduction, we need to open it in a code 
