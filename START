@@ -31,7 +31,7 @@
 #              but others where you will learn some Discourse-specific tips and 
 #              tricks that will make your theme development more efficient and 
 #              effective.
-# references:  https://meta.discourse.org/t/91966,
+# references:  https://meta.discourse.org/t/91966
 #              https://meta.discourse.org/t/45954
 # /learning_course
 
@@ -90,7 +90,7 @@ gem update discourse_theme // update if needed
 #              starting out. Clone the discourse-theme-introduction 
 #              repository to a folder on your computer where you can easily 
 #              find it, such as ~/discourse/themes/discourse-theme-introduction
-# references:  https://desktop.github.com,
+# references:  https://desktop.github.com
 #              https://github.com/pavilionedu/discourse-theme-introduction
 # /learning_step
 
@@ -105,7 +105,7 @@ gem update discourse_theme // update if needed
 #              discourse-theme-introduction will appear when you start watching
 #              it. Click on "API Key", then "Generate API Key" and copy the key
 #              to a notepad on your computer.             
-# references:  https://theme-creator.discourse.org,
+# references:  https://theme-creator.discourse.org
 #              https://meta.discourse.org/t/84942
 # /learning_step
 

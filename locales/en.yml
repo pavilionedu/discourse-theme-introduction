@@ -37,11 +37,11 @@
 #              When you're ready, open the FINISH file for the final steps in
 #              this unit.
 #              
-# references:  https://en.wikipedia.org/wiki/Internationalization_and_localization,
-#              https://meta.discourse.org/t/109867,
-#              https://meta.discourse.org/t/119205,
-#              discourse/config/locales,
-#              https://en.wikipedia.org/wiki/ISO_639-1,
+# references:  https://en.wikipedia.org/wiki/Internationalization_and_localization
+#              https://meta.discourse.org/t/109867
+#              https://meta.discourse.org/t/119205
+#              discourse/config/locales
+#              https://en.wikipedia.org/wiki/ISO_639-1
 #              https://yaml.org/spec/1.2/spec.html
 en:
   theme_metadata:
