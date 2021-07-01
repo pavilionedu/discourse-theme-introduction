@@ -1,20 +1,51 @@
-CLI_VERSION: '0.4.1'
-
 # learning_course
 # key:         discourse_theme_development
+# title:       Introduction to Discourse Theme Development
+# description: This course introduces you to Discourse theme development. It's 
+#              made up of a series of units, each of which have both a topic in a
+#              category on education.thepavilion.io, and their own repository
+#              at github.com/pavilionedu. 
+#
+#              Each unit has a series of steps which appear both as posts in the 
+#              unit's topic on education.thepavilion.io and as comments in the 
+#              code of the unit's repository at github.com/pavilionedu. The content 
+#              of the steps is the same in both places.
+#
+#              The best way to take this course is by working through each step in
+#              each unit, post by post and topic by topic in the course's category
+#              on education.thepavilion.io. It's easier to read the step in their 
+#              post form, and you get the chance to respond to each step to ask
+#              questions, share your work or provide feedback.
+#
+#              This course requires some knowledge of HTML and CSS and a minimum
+#              degree of comfort with using your computer's terminal (the "command
+#              line"). It also introduces you to working with Javascript in 
+#              Discourse, however that part is optional. If you're unsure if 
+#              you're ready, consider taking an introductory course in HTML and 
+#              CSS with another online education provider first. You'll get more 
+#              out of this if you have the minimum background.
+#
+#              The purpose of this course is to provide a practical, and interactive,
+#              introduction to Discourse Theme Development. If you're an experienced 
+#              developer or designer there will be some parts you can skim over, 
+#              but others where you will learn some Discourse-specific tips and 
+#              tricks that will make your theme development more efficient and 
+#              effective.
+# references:  https://meta.discourse.org/t/91966,
+#              https://meta.discourse.org/t/45954
 # /learning_course
 
 # learning_unit
 # course:      discourse_theme_development
 # number:      1
-# title:       Introduction to Discourse Theme Development
-# description: This unit will introduce you to developing Discourse themes. The
-#              unit itself is also a Discourse theme! You can find a link to
-#              the theme git repository in the "references" section below.
-#              Go check it out now, as you'll need to "clone" it to you computer
-#              soon (not just yet). As you go through this unit, make sure you
-#              complete the instructions in each step before moving on to the
-#              next. If you get stuck on any step, post a message in the 
+# title:       Getting Started
+# description: This is the first unit in the Introduction to Discourse Theme 
+#              Development course. The unit itself is also a Discourse theme! 
+#              You can find a link to the theme git repository in the "references" 
+#              section below. Go check it out now, as you'll need to "clone" it 
+#              to you computer soon (not just yet). As you go through this unit, 
+#              make sure you complete the instructions in each step before moving 
+#              on to the next. If you get stuck on any step, post a message in the 
 #              Discourse topic this unit is connected to, and someone will help
 #              you out.
 # references:  https://github.com/pavilionedu/discourse-theme-introduction            
