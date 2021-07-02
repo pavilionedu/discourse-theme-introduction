@@ -41,13 +41,14 @@
 # title:       Getting Started
 # description: This is the first unit in the Introduction to Discourse Theme 
 #              Development course. The unit itself is also a Discourse theme! 
-#              You can find a link to the theme git repository in the "references" 
+#              You can find a link to the theme's git repository in the "references" 
 #              section below. Go check it out now, as you'll need to "clone" it 
-#              to you computer soon (not just yet). As you go through this unit, 
-#              make sure you complete the instructions in each step before moving 
-#              on to the next. If you get stuck on any step, post a message in the 
-#              Discourse topic this unit is connected to, and someone will help
-#              you out.
+#              to you computer soon (not just yet). 
+#
+#              As you go through this unit, make sure you complete the instructions 
+#              in each step before moving on to the next. If you get stuck on any 
+#              step, reply to post for the step, in the topic for this unit, on
+#              education.thepavilion.io, and someone will help you out.
 # references:  https://github.com/pavilionedu/discourse-theme-introduction            
 # /learning_unit
 
