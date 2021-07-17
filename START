@@ -1,6 +1,6 @@
 # learning_course
 # key:         discourse_theme_development
-# title:       Introduction to Discourse Theme Development
+# title:       Discourse Theme Development
 # description: This course introduces you to Discourse theme development. It's 
 #              made up of a series of units, each of which have both a topic in a
 #              category on education.thepavilion.io, and their own repository
@@ -39,11 +39,11 @@
 # course:      discourse_theme_development
 # number:      1
 # title:       Getting Started
-# description: This is the first unit in the Introduction to Discourse Theme 
-#              Development course. The unit itself is also a Discourse theme! 
-#              You can find a link to the theme's git repository in the "references" 
-#              section below. Go check it out now, as you'll need to "clone" it 
-#              to you computer soon (not just yet). 
+# description: This is the first unit in a course on Discourse theme development.
+#              The unit itself is also a Discourse theme! You can find a link to 
+#              the theme's git repository in the "references" section below. Go 
+#              check it out now, as you'll need to "clone" it to you computer 
+#              soon (not just yet). 
 #
 #              As you go through this unit, make sure you complete the instructions 
 #              in each step before moving on to the next. If you get stuck on any 
