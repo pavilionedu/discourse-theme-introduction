@@ -45,7 +45,7 @@
 #              ### When reading on Pavilion Education
 #
 #              If you're taking this unit on [Pavilion Education](https://education.thepavilion.io),
-#              mark the ``self review`` steps ``Complete`` when you've completed 
+#              mark the ``self review`` steps complete when you've completed 
 #              them. If a step is marked ``peer review`` or ``teacher review`` 
 #              post a comment on the step with your answer and click "Request 
 #              Review" to notify your peers or teachers, who will then mark your
@@ -76,8 +76,7 @@
 #              already have the gem installed, check that you're using the latest 
 #              version.
 # references:  https://meta.discourse.org/t/82950
-gem install discourse_theme
-// or if already installed
+gem install discourse_theme // to install
 gem list discourse_theme // check the version
 gem update discourse_theme // update if needed
 # /learning_step
