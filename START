@@ -76,9 +76,11 @@
 #              already have the gem installed, check that you're using the latest 
 #              version.
 # references:  https://meta.discourse.org/t/82950
+
 gem install discourse_theme // to install
 gem list discourse_theme // check the version
 gem update discourse_theme // update if needed
+
 # /learning_step
 
 # learning_step
