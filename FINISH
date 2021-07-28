@@ -16,7 +16,7 @@
 # description: The ``about.json`` file's primary role is to set metadata about
 #              a theme. Have a look at the meta.discourse.org topic in the 
 #              references for a list of metadata you can add. The ``about.json``
-#              can also be used to configure assets and color schemes.
+#              can also be used to configure assets and colour schemes.
 #
 #              To see how the ``about.json`` works, add your name to the
 #              "authors" value. The convention is to seperate each name by a
@@ -34,6 +34,8 @@
 # learning_step
 # unit:        discourse_theme_development.1
 # number:      19
+# review:      peer
+# mark:        pass_change_fail
 # title:       How to use the settings.yml file
 # description: The ``settings.yml`` file is where you add settings you can
 #              change in the theme administration interface. The main point of
@@ -70,7 +72,18 @@
 #
 #              Then open up your preview tab, and you'll now see a repeated
 #              background pattern image. Experiment by changing the setting to
-#              a different online image url.
+#              a different online image url. If you're taking this on Pavilion
+#              Education, post a comment with evidence of your successful background
+#              change using a setting to pass the step.
 # references:  https://meta.discourse.org/t/82557      
+# /learning_step
+
+# learning_step
+# unit:         discourse_theme_development.4
+# number:       20
+# visibility:   hidden:until_steps_completed
+# title:        Unit Video
+# description:  This is where video of a teacher completing the unit goes when 
+#               you're taking the unit on [Pavilion Education](https://education.thepavilion.io).
 # /learning_step
 

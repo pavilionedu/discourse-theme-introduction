@@ -3,7 +3,5 @@
   "about_url": "https://github.com/pavilionedu/discourse-theme-introduction.git",
   "license_url": "https://github.com/pavilionedu/discourse-theme-introduction/blob/master/LICENSE.txt",
   "authors": "Angus McLeod",
-  "theme_version": "0.1.0",
-  "assets": {},
-  "color_schemes": {}
+  "theme_version": "0.1.0"
 }

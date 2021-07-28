@@ -7,11 +7,6 @@
 #              want to display static text in a single language, you should
 #              still use a locale file to manage it.
 #
-#              If you're not familiar with what "locales" are, or even if you
-#              are but are a little rusty, first skim through the
-#              "Internationalization and localization" Wikipedia article, and
-#              the meta.discourse.org topic in the references.
-#
 #              The ``locales`` folder in a theme is where you can define locale
 #              strings you have created to use in your theme. If you want to
 #              change locale strings in Discourse itself (not in your theme), 
@@ -23,7 +18,7 @@
 #              file should also start with the same ISO 639-1 code.
 #              
 #              Let's change the ``theme_metadata.description`` locale string
-#              below to something else, such as "I made it to step 10!". Then,
+#              below to something else, such as "I made it to step 16!". Then,
 #              go back to "Discourse Theme Introduction" in "My Themes" on the
 #              Theme Creator and refresh the page. You'll now see your new
 #              description text under the main "Discourse Theme Introduction"
@@ -34,13 +29,13 @@
 #              a simple change to one. Browse through the references to learn
 #              more, but don't worry about becoming a locale expert just yet.
 #
-#              When you're ready, open the FINISH file for the final steps in
-#              this unit.
+#              If you're reading this in the unit theme code, open the FINISH 
+#              file for the final steps in the unit.
 #              
 # references:  https://en.wikipedia.org/wiki/Internationalization_and_localization
 #              https://meta.discourse.org/t/109867
 #              https://meta.discourse.org/t/119205
-#              discourse/config/locales
+#              https://github.com/discourse/discourse/tree/main/config/locales
 #              https://en.wikipedia.org/wiki/ISO_639-1
 #              https://yaml.org/spec/1.2/spec.html
 en:

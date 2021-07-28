@@ -6,17 +6,14 @@ description: As well as adding custom CSS, you can also use themes to add
              custom HTML. The various ``.html`` files you see in the
              common, desktop and mobile folders are all just different places
              to insert HTML into the Discourse layout. Which one you use
-             depends on where you want the HTML to be inserted, and whether
-             you want it restricted to a particular devices (i.e. desktop or
-             mobile). There are two broad categories of HTML files, which
-             we'll cover in turn.
-             <br>
+             depends on where you want the HTML to be inserted.
+
              The files ``head_tag.html`` and ``body_tag.html`` are typically
              used to add site meta, load scripts and fetch assets. Any HTML
              in the ``head_tag.html`` file will get added to the ``<head>``
              in all Discourse pages. Any HTML in ``body_tag.html`` will get
              inserted at the bottom of the ``<body>`` tag.
-             <br>
+
              The files ``after_header.html``, ``header.html`` and
              ``footer.html`` are typically used to add new elements to
              Discourse that a user, or a web crawler, will see as part of the
@@ -24,31 +21,40 @@ description: As well as adding custom CSS, you can also use themes to add
              but it's also important to keep in mind what HTML web crawlers,
              such as Googlebot, are seeing when they crawl and index your
              forum.
-             <br>
+
              If any of these concepts are new or confusing, take some time to
              go through the references before continuing to the next step.
 references:  https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure
              https://stackoverflow.com/questions/436411
-             https://developers.google.com/search/docs/advanced/crawling/googlebot   
 -->  
 <!-- /learning_step -->
 <!-- learning_step
 unit:        discourse_theme_development.1
 number:      14
 title:       Add an asset in the ``<head>``
+review:      peer
+mark:        pass_change_fail
 description: We can use the ``head_tag.html`` to load scripts, or assets such
              fonts. In the ``<link>`` below we're loading a font called New
-             Tegomin from Google Fonts. Head over to the common/common.scss
+             Tegomin from Google Fonts. Head over to the ``common/common.scss``
              and add this font as a font-family to the ``body`` rule already
              in that file.
+
              ```
              font-family: 'New Tegomin', serif;
              ```
+
              Experiment with adding other tags, such as <meta> or <script>, 
              then see the result using your web inspector in your preview
              tabs. Each time you add new HTML, you'll need to do a full
-             refresh of the page. Once you've finished experimenting, head
-             over to ``header.html`` for the next step.
+             refresh of the page. 
+
+             If you're taking this on Pavilion Education, post a comment with 
+             evidence of one of your experiments. Once another student or 
+             teacher approves your example, your step will marked as completed.               
+
+             If you're reading this in the unit theme code, head over to 
+             ``common/header.html`` for the next step.
 -->
 <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
 <!-- /learning_step -->

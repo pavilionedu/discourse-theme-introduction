@@ -2,17 +2,18 @@
 * unit:        discourse_theme_development.1
 * number:      8
 * title:       Make changes to the CSS
-* description: Whenever you make changes to common/common.scss, they'll
-*              automatically be applied to the common/common.scss in the 
-*              copy of discourse-theme-introduction on Theme Creator. If that
+* description: Whenever you make changes to ``common/common.scss``, they'll
+*              automatically be applied to the ``common/common.scss`` file in the 
+*              copy of ``discourse-theme-introduction`` on Theme Creator. If that
 *              theme is enabled, or being previewed, you'll automatically see
 *              the change being applied.
 *              
-*              Change the background to skyblue below, then go back to
+*              Change the background to ``skyblue`` below, then go back to
 *              the browser tab that opened when you clicked the "Preview"
 *              button in Step 3. You should now see your skyblue colour
 *              applied. Open up the terminal window where you have the
 *              discourse_theme CLI running and you should see 
+*
 *              ```
 *              » Fast updating common.scss
 *              ✔ Done! Watching for changes...
@@ -28,13 +29,20 @@ body {
 /* learning_step
 * unit:        discourse_theme_development.1
 * number:      9
-* title:       Find tags and classes to change 
+* title:       Find tags and classes to change
+* review:      peer
+* mark:        pass_change_fail
 * description: Open up your browser's web developer tools. There are some links
 *              for popular browsers below if you want to learn more about your 
-*              browser's tools and how to use them. Some common Discourse
-*              classes are listed below with some default values set. Change 
-*              them and then click around your "Preview" tab of the Theme 
-*              Creator to see the effect.
+*              browser's tools and how to use them. 
+*
+*              Some common Discourse classes are listed below with some default 
+*              values set. Change them and then click around your "Preview" tab 
+*              of the Theme Creator to see the effect.
+*
+*              If you're reading this on Pavilion Education, post a screenshot
+*              of one of your changes in a comment below. Once another student
+*              or teacher approves it, you'll have 'completed' this step.
 * references:  https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools
 *              https://developer.chrome.com/docs/devtools/
 */
@@ -61,12 +69,15 @@ body {
 * title:       Open up a mobile preview tab
 * description: Copy the URL in your preview tab, and open a new browser tab. 
 *              Use your browser's web developer tools to change the tab to
-*              "Responsive Design Mode" or "Device mode". Once that's enabled,
-*              paste the URL from your existing preview tab in the URL bar and
-*              load your previewed theme. Keep this mobile tab open, alongside
-*              your existing preview tab, for the rest of this unit. When you
-*              have both preview tabs open, go to desktop/desktop.scss for the
-*              next step.
+*              "Responsive Design Mode" or "Device mode". 
+*
+*              Once responsive mode is enabled, paste the URL from your existing 
+*              preview tab in the URL bar and load your previewed theme. Keep 
+*              this responsive tab open, alongside your existing preview tab, 
+*              for the rest of this unit.
+*
+*              If you're reading this in the unit theme code, go to ``desktop/desktop.scss``
+*              for the next step.
 * references:  https://developer.mozilla.org/en-US/docs/Tools/Responsive_Design_Mode
 *              https://developer.chrome.com/docs/devtools/device-mode/
 */

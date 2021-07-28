@@ -2,31 +2,28 @@
 # key:         discourse_theme_development
 # title:       Discourse Theme Development
 # description: This course introduces you to Discourse theme development. It's 
-#              made up of a series of units, each of which have both a topic in a
-#              category on education.thepavilion.io, and their own repository
-#              at github.com/pavilionedu. 
-#
+#              made up of a series of units, each of which have a topic in a
+#              category for this course on [Pavilion Education](https://education.thepavilion.io),
+#              and their own repository on the [Pavilion Education Github](https://github.com/pavilionedu). 
 #              Each unit has a series of steps which appear both as posts in the 
-#              unit's topic on education.thepavilion.io and as comments in the 
-#              code of the unit's repository at github.com/pavilionedu. The content 
-#              of the steps is the same in both places.
+#              unit's topic and as comments in the code of the unit's repository. 
+#              The content of the steps is the same in both places.
 #
 #              The best way to take this course is by working through each step in
-#              each unit, post by post and topic by topic in the course's category
-#              on education.thepavilion.io. It's easier to read the step in their 
-#              post form, and you get the chance to respond to each step to ask
-#              questions, share your work or provide feedback.
+#              each unit, step by step. It's easier to read the steps on 
+#              [Pavilion Education](https://education.thepavilion.io), where you'll
+#              also get the chance to have your work reviewed, watch videos of 
+#              teachers completing the steps, chat with other students and track
+#              your progress.
 #
-#              This course requires some knowledge of HTML and CSS and a minimum
-#              degree of comfort with using your computer's terminal (the "command
-#              line"). It also introduces you to working with Javascript in 
-#              Discourse, however that part is optional. If you're unsure if 
-#              you're ready, consider taking an introductory course in HTML and 
-#              CSS with another online education provider first. You'll get more 
+#              This course requires some knowledge of HTML, CSS and Javascript 
+#              and a minimum degree of comfort with using your computer's terminal 
+#              (the "command line"). If you're unsure if you're ready, consider 
+#              taking an introductory course in HTML and CSS first. You'll get more 
 #              out of this if you have the minimum background.
 #
-#              The purpose of this course is to provide a practical, and interactive,
-#              introduction to Discourse Theme Development. If you're an experienced 
+#              The purpose of this course is to provide a practical and interactive,
+#              introduction to Discourse theme development. If you're an experienced 
 #              developer or designer there will be some parts you can skim over, 
 #              but others where you will learn some Discourse-specific tips and 
 #              tricks that will make your theme development more efficient and 
@@ -39,16 +36,33 @@
 # course:      discourse_theme_development
 # number:      1
 # title:       Getting Started
-# description: This is the first unit in a course on Discourse theme development.
+# description: This is the first unit in a course on Discourse theme development. 
 #              The unit itself is also a Discourse theme! You can find a link to 
 #              the theme's git repository in the "references" section below. Go 
 #              check it out now, as you'll need to "clone" it to you computer 
-#              soon (not just yet). 
+#              soon (not just yet).
 #
-#              As you go through this unit, make sure you complete the instructions 
-#              in each step before moving on to the next. If you get stuck on any 
-#              step, reply to post for the step, in the topic for this unit, on
-#              education.thepavilion.io, and someone will help you out.
+#              ### When reading on Pavilion Education
+#
+#              If you're taking this unit on [Pavilion Education](https://education.thepavilion.io),
+#              mark the ``self review`` steps ``Complete`` when you've completed 
+#              them. If a step is marked ``peer review`` or ``teacher review`` 
+#              post a comment on the step with your answer and click "Request 
+#              Review" to notify your peers or teachers, who will then mark your
+#              work. 
+#
+#              There's a video of a teacher completing the unit in the final 
+#              step, which you'll be able to watch once all other steps are
+#              complete.
+#
+#              ### When reading the code
+#
+#              If you're reading this in the unit theme code, the last step in 
+#              a file will tell you where to go to find the next step (if there 
+#              is one). If you can't find it, do a search for ``learning_step`` 
+#              in the theme folder in your code editor to see all the steps in 
+#              the unit. All units start in the START file and end in the 
+#              FINISH file.
 # references:  https://github.com/pavilionedu/discourse-theme-introduction            
 # /learning_unit
 
@@ -59,9 +73,8 @@
 # description: First, you need to install the latest version of the Discourse
 #              Theme CLI ruby gem by following the steps in the
 #              meta.discourse.org CLI topic (link in the references). If you
-#              already have the gem installed, check you're using the version
-#              set at the top of the discourse-theme-introduction/START file,
-#              or later.
+#              already have the gem installed, check that you're using the latest 
+#              version.
 # references:  https://meta.discourse.org/t/82950
 gem install discourse_theme
 // or if already installed
@@ -73,13 +86,15 @@ gem update discourse_theme // update if needed
 # unit:        discourse_theme_development.1
 # number:      2
 # title:       Watch your theme on Discourse Theme Creator
-# description: Now we're going to start "watching" this theme, the
-#              ``discourse-theme-introduction`` theme, on the Discourse Theme 
-#              Creator. This means that the copy of the theme on your computer
-#              will be connected with a copy of the same theme on the Theme
-#              Creator. Whenever changes are made to the theme code on your
-#              computer, the same changes will be automatically made to the
-#              theme on the Theme Creator.
+# description: Now we're going to start "watching" this unit's theme, the
+#              ``discourse-theme-introduction`` theme, on the 
+#              [Discourse Theme Creator](https://theme-creator.discourse.org). 
+#              This means that the copy of the theme on your computer will be 
+#              connected with a copy of the same theme on the Theme Creator. 
+#              Whenever changes are made to the theme code on your computer, the 
+#              same changes will be automatically made to the theme on the Theme 
+#              Creator.
+# references:  https://theme-creator.discourse.org
 # /learning_step
 
 # learning_step
@@ -87,10 +102,15 @@ gem update discourse_theme // update if needed
 # number:      3
 # title:       Clone this theme from GitHub
 # description: There are many ways to clone the theme from GitHub to your
-#              computer. We recommend you use GitHub Desktop when you're
-#              starting out. Clone the discourse-theme-introduction 
-#              repository to a folder on your computer where you can easily 
-#              find it, such as ~/discourse/themes/discourse-theme-introduction
+#              computer. We recommend you use [GitHub Desktop](https://desktop.github.com) 
+$              when you're starting out.
+#
+#              Clone the ``discourse-theme-introduction`` repository to a folder 
+#              on your computer where you can easily find it, such as 
+#
+#              ```
+#              ~/discourse/themes/discourse-theme-introduction
+#              ```
 # references:  https://desktop.github.com
 #              https://github.com/pavilionedu/discourse-theme-introduction
 # /learning_step
@@ -103,11 +123,10 @@ gem update discourse_theme // update if needed
 #              the CLI. Go https://theme-creator.discourse.org, sign up for an
 #              account and click on "My Themes". These are the themes you have
 #              installed on the Theme Creator, and is where your local copy of 
-#              discourse-theme-introduction will appear when you start watching
+#              ``discourse-theme-introduction`` will appear when you start watching
 #              it. Click on "API Key", then "Generate API Key" and copy the key
 #              to a notepad on your computer.             
-# references:  https://theme-creator.discourse.org
-#              https://meta.discourse.org/t/84942
+# references:  https://meta.discourse.org/t/84942
 # /learning_step
 
 # learning_step
@@ -116,10 +135,13 @@ gem update discourse_theme // update if needed
 # title:       Run the watch command
 # description: Now we're ready to run the watch command on your computer's 
 #              command line. Open your terminal and run the command
+#
 #              ```
 #              discourse_theme watch path/to/your/cloned/copy // e.g. ~/discourse/themes/discourse-theme-introduction
 #              ```
+#
 #              You'll be asked a series of questions. Answer as follows
+#
 #              ```
 #              ? What is the root URL of your Discourse site? theme-creator.discourse.org
 #              ? Would you like this site name stored in ~/.discourse_theme? Y
@@ -127,10 +149,13 @@ gem update discourse_theme // update if needed
 #              ? Would you like this API key stored in ~/.discourse_theme? Y
 #              > Create and sync with a new theme // press enter
 #              ```
+#
 #              If everything is working, you'll then see a message starting
+#
 #              ```
 #              Watching for changes in...
 #              ```
+#
 #              Now, go back to "My Themes" on the Theme Creator and refresh the
 #              page. You should now see "Discourse Theme Introduction" in your
 #              list of themes.
@@ -141,15 +166,17 @@ gem update discourse_theme // update if needed
 # unit:        discourse_theme_development.1
 # number:      6
 # title:       Preview your theme
-# description: Now that your local copy of discourse-theme-introduction is
+# description: Now that your local copy of ``discourse-theme-introduction`` is
 #              on the Theme Creator, we need to "Preview" the theme on the 
 #              Theme Creator to see the effect of changes we make. Click on
 #              "Discourse Theme Introduction" in your list of themes, then
-#              click the "Preview" button. This will open a new browser tab
-#              where you'll see a standard version of Discourse. Keep that tab
-#              open while you complete the rest of the steps in this unit, as
-#              that is where you'll see your changes being applied as you 
-#              make them to your local copy of discourse-theme-introduction.
+#              click the "Preview" button. 
+#
+#              This will open a new browser tab where you'll see a standard 
+#              version of Discourse. Keep that tab open while you complete the 
+#              rest of the steps in this unit, as that is where you'll see your 
+#              changes being applied as you make them to your local copy of 
+#              ``discourse-theme-introduction``.
 # /learning_step
 
 # learning_step
@@ -157,10 +184,11 @@ gem update discourse_theme // update if needed
 # number:      7
 # title:       Open your theme in a code editor
 # description: To make changes to the code in your local copy of
-#              discourse-theme-introduction, we need to open it in a code 
+#              ``discourse-theme-introduction``, we need to open it in a code 
 #              editor. If you don't have a code editor installed, we 
-#              recommend you use GitHub Atom. Once you have opened 
-#              discourse-theme-introduction in your editor, open the
-#              common/common.scss file to move to the next step.
+#              recommend you use [GitHub Atom](https://atom.io). 
+#
+#              If you're reading this in this unit's theme, open the 
+#              ``common/common.scss`` file to move to the next step.
 # references:  https://atom.io    
 # /learning_step
