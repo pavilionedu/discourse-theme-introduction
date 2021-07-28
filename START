@@ -103,7 +103,7 @@ gem update discourse_theme // update if needed
 # title:       Clone this theme from GitHub
 # description: There are many ways to clone the theme from GitHub to your
 #              computer. We recommend you use [GitHub Desktop](https://desktop.github.com) 
-$              when you're starting out.
+#              when you're starting out.
 #
 #              Clone the ``discourse-theme-introduction`` repository to a folder 
 #              on your computer where you can easily find it, such as 
