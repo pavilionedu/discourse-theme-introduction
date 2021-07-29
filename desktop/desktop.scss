@@ -9,14 +9,11 @@
 *
 *              Make a change to the ``.wrap`` ``max-width`` to see this in action. 
 *              This is the CSS rule that sets the maximum width of content you 
-*              see on desktop Discourse, unlike the full-width you see on mobile. 
-*
-*              Once you've finished experimenting with desktop-only styles, if
-*              you're reading this in unit theme code, head over to ``mobile/mobile.scss``
-*              for the next step.      
+*              see on desktop Discourse, unlike the full-width you see on mobile.     
 * references:  https://meta.discourse.org/t/152002
 *              https://meta.discourse.org/t/93648
 *              https://github.com/discourse/discourse/tree/main/app/assets/stylesheets/desktop
+* next_step:   mobile/mobile.scss
 */
 .wrap {
   max-width: 1110px;
