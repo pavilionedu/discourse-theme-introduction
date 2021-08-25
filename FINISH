@@ -82,7 +82,7 @@
 # learning_step
 # unit:         discourse_theme_development.1
 # number:       20
-# visibility:   hidden:until_steps_completed
+# visibility:   hidden:until_previous_completed
 # title:        Unit Video
 # description:  This is where video of a teacher completing the unit goes when 
 #               you're taking the unit on [Pavilion Education](https://education.thepavilion.io).

@@ -41,28 +41,6 @@
 #              the theme's git repository in the "references" section below. Go 
 #              check it out now, as you'll need to "clone" it to you computer 
 #              soon (not just yet).
-#
-#              ### When reading on Pavilion Education
-#
-#              If you're taking this unit on [Pavilion Education](https://education.thepavilion.io),
-#              mark the ``self review`` steps complete when you've completed 
-#              them. If a step is marked ``peer review`` or ``teacher review`` 
-#              post a comment on the step with your answer and click "Request 
-#              Review" to notify your peers or teachers, who will then mark your
-#              work. 
-#
-#              There's a video of a teacher completing the unit in the final 
-#              step, which you'll be able to watch once all other steps are
-#              complete.
-#
-#              ### When reading the code
-#
-#              If you're reading this in the unit theme code, the last step in 
-#              a file will have a ``next_step`` attribute with the path to the 
-#              next step. If you can't find it, do a search for learning_step
-#              in the theme folder in your code editor to see all the steps in 
-#              the unit. All units start in the START file and end in the 
-#              FINISH file.
 # references:  https://github.com/pavilionedu/discourse-theme-introduction            
 # /learning_unit
 
